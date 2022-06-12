@@ -1,7 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
 
-    
-
     function req() {
 
         // Bспользуем чистый fetch
@@ -69,40 +67,4 @@ window.addEventListener('DOMContentLoaded', () => {
             document.querySelector('.app').appendChild(card);                     
         };                
     }
-})  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const request = new XMLHttpRequest();
-
-        // // настраиваем запрос
-        // request.open('GET', 'https://api.unsplash.com/search/photos?query=girls&per_page=12&client_id=t6jI0SUjDZOoil0m3Lp3woSwPds8XvNJcun7qmxySN8');  
-        // // настраиваем заголовки запроса
-        // request.setRequestHeader('images', 'application'); 
-        // // отправляем запрос
-        // request.send();  
-        // // обрабатываем запрос        
-        // request.addEventListener('load', () => {
-        //     if(request.status == 200 ) {                
-        //         let data = JSON.parse(request.response).results;     
-        //         createCards(data);     
-        //         this.remove();
-        //     } else {
-        //         console.error('Что-то пошло не так');
-        //     }
-        // });
+})
