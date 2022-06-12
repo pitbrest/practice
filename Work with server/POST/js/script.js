@@ -27,3 +27,9 @@ async function putResourse(url, post) {
  putResourse('https://jsonplaceholder.typicode.com/posts/', post)            
             .then(data => console.log(data))
             .catch(err => console.error(err));
+
+
+
+// Для передачи данных из форм используется интерфейс FormData (https://developer.mozilla.org/ru/docs/Web/API/FormData).
+
+// Источник инфо - https://www.youtube.com/watch?v=4HVmj5LffgM&t=925s
