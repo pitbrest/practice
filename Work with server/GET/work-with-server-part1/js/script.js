@@ -1,3 +1,5 @@
+// Тут используем устаревший метод XMLHttpRequest, для эмуляции работы сервера используем Json-server (https://www.npmjs.com/package/json-server)
+
 window.addEventListener('DOMContentLoaded', () => {
 
     function req() {
